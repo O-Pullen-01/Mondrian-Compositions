@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
   padding-top: 40px;
 }
 
@@ -62,4 +62,10 @@ body {
 
 .six {
   grid-row: span 2;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 10px 0px;
+  margin-top: 20px;
 }
