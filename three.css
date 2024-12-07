@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 40px;
+}
+
+.painting {
+    display: grid;
+    width: 766px; 
+    height: 761px; 
+    background-color: #000;
+    grid-template-columns: 88px 80px 80px 174px 104px 104px 40px;
+    grid-template-rows: 86px 176px 173px 80px 80px 32px 38px;
+    gap: 16px;
+    align-self: center;
+}
+
+.red {
+    background-color: #E72F24;
+}
+
+.white {
+    background-color: #F0F1EC;
+}
+
+.black {
+    background-color: #232629;
+}
+
+.yellow {
+    background-color: #F9D01E;
+}
+
+.blue {
+    background-color: #004592;
+}
+
+.one {
+    grid-column: span 2;
+}
+
+.two {
+    grid-column: span 2;
+}
+
+.three {
+    grid-column: span 2;
+}
+
+.six {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.seven {
+    grid-column: span 2;
+}
+
+.eight {
+    grid-row: span 3;
+}
+
+.nine {
+    grid-row: span 2;
+}
+
+.twelve {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.fourteen {
+    grid-column: span 2;
+}
+
+.fifteen {
+    grid-row: span 3;
+}
+
+.seventeen {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.eighteen {
+    grid-row: span 3;
+}
+
+.nineteen {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.twenty-one {
+    grid-column: span 3;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
